@@ -14,7 +14,7 @@ int numberofones(int n){
 }
 int main(){
    
-    cout<<numberofones(19)<<endl;
+    cout<<numberofones(25)<<endl;
     
     return 0;
 }
