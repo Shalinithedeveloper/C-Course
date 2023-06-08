@@ -8,12 +8,12 @@ void unique(int arr[], int n){
         xorsum = xorsum^arr[i];
     }
     
-    return xorsum;
+    cout<<xorsum<<endl;
 }
 int main(){
    int arr[]= {1,2,3,1,3,4,2};
    
-   cout << unique (arr, 7) << endl;
+unique (arr, 7) ;
 
 
     
