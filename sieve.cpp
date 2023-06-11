@@ -7,7 +7,7 @@ void primeSieve(int n){
     {
        if (prime[i]==0)
        {
-            for (int j = i^2; j <= n; j+=i)
+            for (int j = i*i; j <= n; j+=i)
             {
                 prime[i]=1;
             }
@@ -31,5 +31,5 @@ int main(){
 
     primeSieve(n);
 
-    return 0;
+    return 0; 
 }
